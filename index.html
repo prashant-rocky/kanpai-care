@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home  | KanpaiCare</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+    
+   
+</head>
+
+<body>
+    <!--Header-Section -->
+    <div class="home-header-section">
+        <header class="header">
+            <div class="main-header">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light p-0">
+                        <a class="navbar-brand mr-0" href="index.html"><img src="./assets/images/sencare-logo2.png"
+                                alt="" class="img-fluid"></a>
+                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon navbar-toggler-icon2"></span>
+                            <span class="navbar-toggler-icon navbar-toggler-icon2"></span>
+                            <span class="navbar-toggler-icon navbar-toggler-icon2"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item dropdown sancare-li-color active">
+                                    <a class="nav-link active text-white" href="index.html" role="button"
+                                        aria-haspopup="true" aria-expanded="false">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-decoration-none navbar-text-color index2-navlink text-white"
+                                        href="about.html">About</a>
+                                </li>
+
+                                <li class="nav-item list-unstyled  btn-talk nav-btn2"><a class="nav-link contact"
+                                        href="contact.html">GET IN TOUCH</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- BANNER-SECTION -->
+        <div class="home-banner-section overflow-hidden">
+            <div class="banner-container-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 position-relative">
+                            <!-- Book a Consultation Form -->
+                            <div id="consultationForm" style="position: absolute; top: 78%; left: 50%; transform: translate(-50%, -50%);
+            width: 400px; height: 550px; background-color: #662d91; padding: 30px;
+            border-radius: 10px; color: white; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                                <h6 class="text-center">Book Consultation</h6>
+                                <form
+                                    style="display: flex; flex-direction: column; justify-content: space-between; height: 450px;">
+                                    <div class="mb-0">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" id="name" class="form-control" placeholder="Your Name"
+                                            required>
+                                    </div>
+                                    <div class="mb-0">
+                                        <label for="phone" class="form-label">Phone</label>
+                                        <input type="tel" id="phone" class="form-control" placeholder="Your Phone"
+                                            required>
+                                    </div>
+                                    <div class="mb-0">
+                                        <label for="date" class="form-label">Preferred Date</label>
+                                        <input type="date" id="date" class="form-control" required>
+                                    </div>
+                                    <div class="mb-0">
+                                        <label for="location" class="form-label">Location</label>
+                                        <input type="text" id="location" class="form-control"
+                                            placeholder="Your Area/City" required>
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn bg-success w-100">Book Now</button>
+                                    </div>
+                                </form>
+                            </div>
+    
+    
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <div class="home-banner-text" data-aos="fade-up">
+                                <h1>Caring for Seniors at Home</h1>
+                                <p class="banner-paragraph">
+                                    Expert caregivers providing safe, comfortable, and personalized in-home support.</p>
+                                <div class="banner-btn discover-btn-banner">
+                                    <a href="about.html" class="text-decoration-none">OUR CARE SERVICES</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MENU-SECTION -->
+    <div class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="menu-section-img">
+                        <figure>
+                            <img src="./assets/images/menu-section-left-img.png" alt="" class="img-fluid">
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="menu-right-section">
+                                <figure>
+                                    <img src="./assets/images/menu-icon1.png" alt="" class="img-fluid">
+                                </figure>
+                                <h5>Daily Living Support</h5>
+                                <p>Help with meals, bathing, dressing, and movement to maintain comfort and
+                                    independence.</p>
+                                <a href="about.html" class="text-decoration-none">Read more</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="menu-right-section">
+                                <figure>
+                                    <img src="./assets/images/menu-icon2.png" alt="" class="img-fluid">
+                                </figure>
+                                <h5>Companionship & Emotional Support</h5>
+                                <p>Friendly caregivers who listen, chat, and bring smiles to everyday life.</p>
+                                <a href="about.html" class="text-decoration-none">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="menu-right-section">
+                                <figure>
+                                    <img src="./assets/images/menu-icon3.png" alt="" class="img-fluid">
+                                </figure>
+                                <h5>Errands & Escort Service</h5>
+                                <p>Assistance with shopping, clinic visits, and local travel for peace of mind.</p>
+                                <a href="about.html" class="text-decoration-none">Read more</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="menu-right-section">
+                                <figure>
+                                    <img src="./assets/images/menu-icon4.png" alt="" class="img-fluid">
+                                </figure>
+                                <h5>Customized Care Plans</h5>
+                                <p>Flexible plans designed to meet each person’s unique needs and lifestyle.</p>
+                                <a href="about.html" class="text-decoration-none">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Form-Section -->
+    <section class="form-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="left-section" data-aos="fade-up">
+                        <h2>Caring Hands, Compassionate <span class="concern"> Hearts</span></h2>
+                        <p>We are a dedicated team of professional caregivers committed to helping seniors live safely and comfortably at home. Our personalized care combines experience, compassion, and cultural sensitivity to ensure every individual feels respected, supported, and valued.</p>
+                        <ul class="list-unstyled list-margin-bottom">
+                            <li class="d-inline-block mb-lg-0 mb-3"><i class="fa-solid fa-check ml-0"></i><span
+                                    class="d-inline-block email-span text-decoration-none list-span">Personalized Care</span></li>
+                            <li class="d-inline-block user-li"><i
+                                    class="fa-solid fa-check ml-3 margin-left-check"></i><span
+                                    class="d-inline-block user-span text-decoration-none list-span">Trusted Caregivers</span></li>
+                        </ul>
+                        <ul class="list-unstyled left-section-margin-bottom">
+                            <li class="d-inline-block mb-lg-0 mb-3"><i
+                                    class="fa-solid fa-check ml-0 last-li-form-section"></i><span
+                                    class="d-inline-block email-span text-decoration-none list-span">Flexible Scheduling</span></li>
+                            <li class="d-inline-block user-li"><i
+                                    class="fa-solid fa-check ml-lg-3 ml-md-0 ml-sm-3"></i><span
+                                    class="d-inline-block user-span text-decoration-none list-span">Safe & Comfortable</span></li>
+                        </ul>
+                        <div class="banner-btn discover-btn-banner primary-button">
+                            <a href="about.html" class="text-decoration-none">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="right-section" style="color: #fff; padding: 20px;">
+                        <h2 style="margin-bottom: 25px;">Frequently Asked Questions</h2>
+
+                        <div class="accordion" id="faqAccordion">
+
+                            <div class="accordion-item"
+                                style="background-color: transparent; border: none; margin-bottom: 10px;">
+                                <h5 class="accordion-header" id="headingOne">
+                                    <button
+                                        class="accordion-button collapsed d-flex mb-4 justify-content-between align-items-center"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="false" aria-controls="collapseOne"
+                                        style="background-color: rgba(255,255,255,0.1); color: #fff; border: none;">
+                                        <span class="faq-question">Q1. Is this service available in my area?</span>
+                                        <span class="faq-icon" aria-hidden="true">+</span>
+                                    </button>
+                                </h5>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body"
+                                        style="background-color: rgba(255,255,255,0.05); color: #ddd;">
+                                        Yes, we currently serve Osaka, Hyogo, and nearby regions. Please contact us for
+                                        other locations.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item"
+                                style="background-color: transparent; border: none; margin-bottom: 10px;">
+                                <h5 class="accordion-header" id="headingTwo">
+                                    <button
+                                        class="accordion-button collapsed d-flex mb-4 justify-content-between align-items-center"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo"
+                                        style="background-color: rgba(255,255,255,0.1); color: #fff; border: none;">
+                                        <span class="faq-question">Q2. Do I need a long-term contract?</span>
+                                        <span class="faq-icon" aria-hidden="true">+</span>
+                                    </button>
+                                </h5>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body"
+                                        style="background-color: rgba(255,255,255,0.05); color: #ddd;">
+                                        No, you can start with a single visit or flexible short-term plan.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item"
+                                style="background-color: transparent; border: none; margin-bottom: 30px;">
+                                <h5 class="accordion-header" id="headingThree">
+                                    <button
+                                        class="accordion-button collapsed d-flex mb-4 align-items-start text-start"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree"
+                                        style="background-color: rgba(255,255,255,0.1); color: #fff; border: none;">
+                                        <span class="faq-question">Q3. Is this covered by insurance?</span>
+                                        <span class="faq-icon" aria-hidden="true">+</span>
+                                    </button>
+                                </h5>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body"
+                                        style="background-color: rgba(255,255,255,0.05); color: #ddd;">
+                                        Currently, our services are private-pay only, but we provide clear pricing and flexible plans.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item"
+                                style="background-color: transparent; border: none; margin-bottom: 30px;">
+                                <h5 class="accordion-header" id="headingThree">
+                                    <button
+                                        class="accordion-button collapsed d-flex mb-4 align-items-start text-start"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree"
+                                        style="background-color: rgba(255,255,255,0.1); color: #fff; border: none;">
+                                        <span class="faq-question">Q4. Are your caregivers trained?</span>
+                                        <span class="faq-icon" aria-hidden="true">+</span>
+                                    </button>
+                                </h5>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body"
+                                        style="background-color: rgba(255,255,255,0.05); color: #ddd;">
+                                        Yes, all our caregivers are experienced, background-checked, and trained in
+                                        elderly care and safety.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item" style="background-color: transparent; border: none;">
+                                <h5 class="accordion-header" id="headingFour">
+                                    <button
+                                        class="accordion-button collapsed d-flex mb-4 justify-content-between align-items-center"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                        aria-expanded="false" aria-controls="collapseFour"
+                                        style="background-color: rgba(255,255,255,0.1); color: #fff; border: none;">
+                                        <span class="faq-question">Q5. How can I book a service?</span>
+                                        <span class="faq-icon" aria-hidden="true">+</span>
+                                    </button>
+                                </h5>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body"
+                                        style="background-color: rgba(255,255,255,0.05); color: #ddd;">
+                                        You can contact us by phone, LINE, or through our website’s booking form
+                                        anytime.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Choose-us-section -->
+    <div class="choose-us-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 pt-2">
+                    <figure><img src="./assets/images/why-chooseus-img.png" alt="" class="img-fluid"></figure>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 pt-5">
+                    <div class="chooseus-content position-relative">
+                        <h2 class="why-chooseus">Why Choose <span class="concern">Us</span></h2>
+                        <div class="chooseus-content-box" data-aos="fade-up">
+                            <figure class="float-left mb-0 pt-2">
+                                <img class="img-fluid" src="./assets/images/why-chooseus-icon1.png" alt="">
+                            </figure>
+                            <div class="chooseus-content-box-content float-left">
+                                <h4 class="chooseus-title">Trusted Local Caregivers
+                                </h4>
+                                <p class="chooseus-p">Our experienced Japanese caregivers provide reliable, culturally
+                                    sensitive support your family can trust.</p>
+                            </div>
+                        </div>
+                        <div class="chooseus-content-box" data-aos="fade-up">
+                            <figure class="float-left mb-0 pt-2">
+                                <img class="img-fluid" src="./assets/images/why-chooseus-icon2.png" alt="">
+                            </figure>
+                            <div class="chooseus-content-box-content float-left">
+                                <h4 class="chooseus-title">Flexible and Transparent Plans</h4>
+                                <p class="chooseus-p">We offer clear pricing and flexible schedules to fit your
+                                    lifestyle and budget.</p>
+                            </div>
+                        </div>
+                        <div class="chooseus-content-box" data-aos="fade-up">
+                            <figure class="float-left mb-0 pt-2">
+                                <img class="img-fluid" src="./assets/images/why-chooseus-icon3.png" alt="">
+                            </figure>
+                            <div class="chooseus-content-box-content float-left">
+                                <h4 class="chooseus-title">Safety and Comfort First</h4>
+                                <p class="chooseus-p">We follow strict safety standards and infection control practices
+                                    to ensure peace of mind at home.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our-teams-section -->
+    <div class="Our-teams-section">
+        <div class="container">
+            <h2 class="text-center">Our Care Givers <span class="concern">Team</span></h2>
+            <p class="teams-title">Dedicated professionals with experience, empathy, and passion for elderly care. Our
+                team works together to ensure every senior receives respectful, safe, and personalized support every
+                day.</p>
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <figure class="text-center teams1">
+                        <img src="./assets/images/teams-img1.png" alt="" class="img-fluid">
+                    </figure>
+                    <div class="teams-content text-center">
+                        <h4>Yuki Tanaka</h4>
+                        <p>Leads care plans with compassion and attention to detail.</p>
+                        <h6 class="text-black-50">Head Care Coordinator</h6>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <figure class="text-center teams1">
+                        <img src="./assets/images/teams-img2.png" alt="" class="img-fluid">
+                    </figure>
+                    <div class="teams-content text-center">
+                        <h4>Haruka Sato</h4>
+                        <p>Brings warmth and patience to every client interaction.</p>
+                        <h6 class="text-black-50">Senior Caregiver</h6>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <figure class="text-center teams1">
+                        <img src="./assets/images/teams-img3.png" alt="" class="img-fluid">
+                    </figure>
+                    <div class="teams-content text-center">
+                        <h4>Kenji Mori</h4>
+                        <p>Ensures smooth daily routines and reliable in-home assistance.</p>
+                        <h6 class="text-black-50">Home Support Specialist</h6>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <figure class="text-center teams1">
+                        <img src="./assets/images/teams-img4.png" alt="" class="img-fluid">
+                    </figure>
+                    <div class="teams-content text-center">
+                        <h4>Aiko Nakamura</h4>
+                        <p>Connects families and caregivers with clear communication.</p>
+                        <h6 class="text-black-50">Client Relations Manager</h6>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing-cards-section -->
+    <div class="pricing-section">
+        <div class="container">
+            <h2 class="text-center pricing-section-heading">Get Started With <span class="concern">SenCare</span></h2>
+            <p class="pricing-title">We offer simple and transparent pricing for every level of care. Choose from
+                flexible plans designed to match your needs, budget, and schedule with no hidden costs.</p>
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="pricing-box text-center">
+                        <h5>Trial Visit</h5>
+                        <h2 class="pricing-text"><sup>¥</sup>3,000</h2>
+                        <span class="pricing-span">1 hour</span>
+                    </div>
+                    <div class="pricing-box-bottom">
+                        <ul class="list-unstyled pricing-section-list">
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Light cleaning</li>
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Friendly conversation</li>
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Safety check</li>
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Basic meal preparation</li>
+                            <li><i class="fa-solid fa-check check-icon-card"></i> Care consultation</li>
+                        </ul>
+                        <div class="banner-btn discover-btn-banner">
+                            <a href="contact.html" class="text-decoration-none">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-sm-3">
+                    <div class="pricing-box text-center">
+                        <h5>Daily Plan</h5>
+                        <h2 class="pricing-text"><sup>¥</sup>8,000</h2>
+                        <span class="pricing-span">3 hours</span>
+                    </div>
+                    <div class="pricing-box-bottom">
+                        <ul class="list-unstyled pricing-section-list">
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Bathing and dressing</li>
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Meal preparation</li>
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Light housework</li>
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Mobility and walking help</li>
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Emotional support</li>
+                        </ul>
+                        <div class="banner-btn discover-btn-banner">
+                            <a href="contact.html" class="text-decoration-none">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="pricing-box text-center">
+                        <h5>Custom Plan</h5>
+                        <h2 class="pricing-text"></h2>
+                        <span class="pricing-span">Quote on Request</span>
+                    </div>
+                    <div class="pricing-box-bottom">
+                        <ul class="list-unstyled pricing-section-list">
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Full-day or overnight care options</li>
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Health monitoring and reminders</li>
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Escort to hospital or shopping</li>
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Specialized dementia or recovery
+                                support</li>
+                            <li><i class="fa-solid fa-check check-icon-card"></i>Family progress updates</li>
+                        </ul>
+                        <div class="banner-btn discover-btn-banner">
+                            <a href="contact.html" class="text-decoration-none">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Carousel-Section  -->
+    <section class="Carousel-Section">
+        <div class="container">
+            <div class="row position-relative wow fadeInUp" data-wow-duration="2s"
+                style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp;">
+                <div class="col-lg-12">
+                    <div class="review-section-outer position-relative">
+                        <div class="carousel-card">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="position-relative">
+                                            <figure class="review-section-review-img-1 position-relative">
+                                                <img class="img-fluid" src="assets/images/carousel-top-img.png" alt="">
+                                            </figure>
+                                            <h4 class="carousel-text">“Thanks to [Your Brand], my mother feels safe and
+                                                happy at home again. The caregiver is gentle, punctual, and treats her
+                                                like family.”</h4>
+                                            <div class="about-border"></div>
+                                            <h4 class="carousel-title">Mrs. Yamamoto</h4>
+                                            <p class="carousel-end-text">Osaka</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="position-relative">
+                                            <figure class="review-section-review-img-1 position-relative">
+                                                <img class="img-fluid" src="assets/images/carousel-top-img.png" alt="">
+                                            </figure>
+                                            <h4 class="carousel-text">“Professional and caring staff. They listen
+                                                carefully and always provide reliable support. Our family truly
+                                                appreciates their kindness and attention.”</h4>
+                                            <div class="about-border"></div>
+                                            <h4 class="carousel-title">Mr. Suzuki</h4>
+                                            <p class="carousel-end-text">Kobe</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <i class="fa-solid fa-angle-left position-absolute"></i>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <i class="fa-solid fa-angle-right position-absolute"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer-section position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <figure class="sencare-logo-footer">
+                        <a class="navbar-brand mr-0" href="index.html"><img src="./assets/images/sencare-logo.png"
+                                alt="" class="img-fluid"></a>
+                    </figure>
+                    <p class="footer-text">Copyright 2020 kanpai care. All Rights reserved</p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-2 col-sm-12 d-lg-block d-none">
+                    <ul class="list-unstyled footer-list-ul">
+                        <li class="list-item footer-margin-left">
+                            <h4 class="footer-link  footer-heading">
+                                Useful Links
+                            </h4>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="text-decoration-none footer-link-p">
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="about.html" class="text-decoration-none footer-link-p">
+                                About us
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="contact.html" class="text-decoration-none footer-link-p">
+                                Contact us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="privacy.html" class="text-decoration-none footer-link-p">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="disclaimer.html" class="text-decoration-none footer-link-p">
+                                Disclaimer
+                            </a>
+                        </li>
+                        <li>
+                            <a href="terms&conditions.html" class="text-decoration-none footer-link-p">
+                                Terms & Conditions
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <ul class="list-unstyled footer-list-ul contact-info-heading">
+                        <li class="list-item footer-margin-left">
+                            <h4 class="footer-link footer-heading">
+                                Contact Info
+                            </h4>
+                        </li>
+                        <li class="footer-margin-bottom">
+                            <a href="about.html" class="text-decoration-none">
+                                Address:
+                            </a>
+                        </li>
+                        <li class="pr-2 mb-3">
+                            <a class="text-decoration-none">
+                                Tokyo, japan
+                            </a>
+                        </li>
+                        <li class="footer-margin-bottom">
+                            <a class="text-decoration-none">
+                                Email:
+                            </a>
+                        </li>
+                        <li class="mb-0">
+                            <a href="mailto:Info@kanpai care.site" class="text-decoration-none">
+                                info@kanpaicare.jp
+                            </a>
+                        </li>
+
+                        <li class="footer-margin-bottom">
+                            <a href="Find-Dealer.html" class="text-decoration-none">
+                                Phone:
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+818095610118" class="text-decoration-none">
+                                +818095610118
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <ul class="list-unstyled">
+                        <li class="list-item">
+                            <h4 class="footer-link  footer-heading instagram-heading">
+                                Gallary
+                            </h4>
+                        </li>
+                    </ul>
+                    <div class="footer-images">
+                        <div class="images-inner-box">
+                            <ul class="list-unstyled mb-1">
+                                <li class="list-item d-inline-block">
+                                    <figure class="mb-0"><img src="./assets/images/footer-img1.png" alt="Snow"
+                                            class="img-fluid footer-imgs"></figure>
+                                </li>
+                                <li class="list-item d-inline-block">
+                                    <figure class="mb-0"><img src="./assets/images/footer-img2.png" alt="Snow"
+                                            class="img-fluid footer-imgs"></figure>
+                                </li>
+                                <li class="list-item d-inline-block">
+                                    <figure class="mb-0"><img src="./assets/images/footer-img3.png" alt="Snow"
+                                            class="img-fluid footer-imgs"></figure>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="images-inner-box">
+                            <ul class="list-unstyled">
+                                <li class="list-item d-inline-block">
+                                    <figure class="mb-0"><img src="./assets/images/footer-img4.png" alt="Snow"
+                                            class="img-fluid footer-imgs"></figure>
+                                </li>
+                                <li class="list-item d-inline-block">
+                                    <figure class="mb-0"><img src="./assets/images/footer-img5.png" alt="Snow"
+                                            class="img-fluid footer-imgs"></figure>
+                                </li>
+                                <li class="list-item d-inline-block">
+                                    <figure class="mb-0"><img src="./assets/images/footer-img6.png" alt="Snow"
+                                            class="img-fluid footer-imgs"></figure>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- 2) Tiny script to switch + / − when collapse opens/closes -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var accordion = document.getElementById('faqAccordion');
+            if (!accordion) return;
+
+            var collapseEls = accordion.querySelectorAll('.accordion-collapse');
+
+            collapseEls.forEach(function (collapseEl) {
+                collapseEl.addEventListener('show.bs.collapse', function () {
+                    var btn = accordion.querySelector('[data-bs-target="#' + collapseEl.id + '"]');
+                    if (btn) {
+                        var icon = btn.querySelector('.faq-icon');
+                        if (icon) icon.textContent = '−';
+                    }
+                });
+                collapseEl.addEventListener('hide.bs.collapse', function () {
+                    var btn = accordion.querySelector('[data-bs-target="#' + collapseEl.id + '"]');
+                    if (btn) {
+                        var icon = btn.querySelector('.faq-icon');
+                        if (icon) icon.textContent = '+';
+                    }
+                });
+            });
+
+            // init icons to correct state
+            var buttons = accordion.querySelectorAll('[data-bs-toggle="collapse"]');
+            buttons.forEach(function (btn) {
+                var target = btn.getAttribute('data-bs-target');
+                var collapse = document.querySelector(target);
+                var icon = btn.querySelector('.faq-icon');
+                if (collapse && icon) {
+                    icon.textContent = collapse.classList.contains('show') ? '−' : '+';
+                }
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/custom-script.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/text-animations.js"></script>
+    <script src="./assets/js/carousel.js"></script>
+</body>
+
+</html>
