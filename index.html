@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home  | KanpaiCare</title>
+    <title>Home | KanpaiCare</title>
     <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -30,8 +30,8 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
-    
-   
+
+
 </head>
 
 <body>
@@ -77,10 +77,11 @@
                         <div class="col-md-6 position-relative">
                             <!-- Book a Consultation Form -->
                             <div id="consultationForm" style="position: absolute; top: 78%; left: 50%; transform: translate(-50%, -50%);
-            width: 400px; height: 550px; background-color: #662d91; padding: 30px;
-            border-radius: 10px; color: white; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+      width: 400px; height: 550px; background-color: #662d91; padding: 30px;
+      border-radius: 10px; color: white; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
                                 <h6 class="text-center">Book Consultation</h6>
-                                <form
+
+                                <form id="bookingForm" onsubmit="handleSubmit(event)"
                                     style="display: flex; flex-direction: column; justify-content: space-between; height: 450px;">
                                     <div class="mb-0">
                                         <label for="name" class="form-label">Name</label>
@@ -106,8 +107,6 @@
                                     </div>
                                 </form>
                             </div>
-    
-    
                         </div>
                         <div class="col-md-6 text-center">
                             <div class="home-banner-text" data-aos="fade-up">
@@ -119,7 +118,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                     </div>
                 </div>
             </div>
@@ -193,21 +192,27 @@
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="left-section" data-aos="fade-up">
                         <h2>Caring Hands, Compassionate <span class="concern"> Hearts</span></h2>
-                        <p>We are a dedicated team of professional caregivers committed to helping seniors live safely and comfortably at home. Our personalized care combines experience, compassion, and cultural sensitivity to ensure every individual feels respected, supported, and valued.</p>
+                        <p>We are a dedicated team of professional caregivers committed to helping seniors live safely
+                            and comfortably at home. Our personalized care combines experience, compassion, and cultural
+                            sensitivity to ensure every individual feels respected, supported, and valued.</p>
                         <ul class="list-unstyled list-margin-bottom">
                             <li class="d-inline-block mb-lg-0 mb-3"><i class="fa-solid fa-check ml-0"></i><span
-                                    class="d-inline-block email-span text-decoration-none list-span">Personalized Care</span></li>
+                                    class="d-inline-block email-span text-decoration-none list-span">Personalized
+                                    Care</span></li>
                             <li class="d-inline-block user-li"><i
                                     class="fa-solid fa-check ml-3 margin-left-check"></i><span
-                                    class="d-inline-block user-span text-decoration-none list-span">Trusted Caregivers</span></li>
+                                    class="d-inline-block user-span text-decoration-none list-span">Trusted
+                                    Caregivers</span></li>
                         </ul>
                         <ul class="list-unstyled left-section-margin-bottom">
                             <li class="d-inline-block mb-lg-0 mb-3"><i
                                     class="fa-solid fa-check ml-0 last-li-form-section"></i><span
-                                    class="d-inline-block email-span text-decoration-none list-span">Flexible Scheduling</span></li>
+                                    class="d-inline-block email-span text-decoration-none list-span">Flexible
+                                    Scheduling</span></li>
                             <li class="d-inline-block user-li"><i
                                     class="fa-solid fa-check ml-lg-3 ml-md-0 ml-sm-3"></i><span
-                                    class="d-inline-block user-span text-decoration-none list-span">Safe & Comfortable</span></li>
+                                    class="d-inline-block user-span text-decoration-none list-span">Safe &
+                                    Comfortable</span></li>
                         </ul>
                         <div class="banner-btn discover-btn-banner primary-button">
                             <a href="about.html" class="text-decoration-none">Read More</a>
@@ -266,8 +271,7 @@
                             <div class="accordion-item"
                                 style="background-color: transparent; border: none; margin-bottom: 30px;">
                                 <h5 class="accordion-header" id="headingThree">
-                                    <button
-                                        class="accordion-button collapsed d-flex mb-4 align-items-start text-start"
+                                    <button class="accordion-button collapsed d-flex mb-4 align-items-start text-start"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                         aria-expanded="false" aria-controls="collapseThree"
                                         style="background-color: rgba(255,255,255,0.1); color: #fff; border: none;">
@@ -279,15 +283,15 @@
                                     aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body"
                                         style="background-color: rgba(255,255,255,0.05); color: #ddd;">
-                                        Currently, our services are private-pay only, but we provide clear pricing and flexible plans.
+                                        Currently, our services are private-pay only, but we provide clear pricing and
+                                        flexible plans.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item"
                                 style="background-color: transparent; border: none; margin-bottom: 30px;">
                                 <h5 class="accordion-header" id="headingThree">
-                                    <button
-                                        class="accordion-button collapsed d-flex mb-4 align-items-start text-start"
+                                    <button class="accordion-button collapsed d-flex mb-4 align-items-start text-start"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                         aria-expanded="false" aria-controls="collapseThree"
                                         style="background-color: rgba(255,255,255,0.1); color: #fff; border: none;">
@@ -730,6 +734,10 @@
                 }
             });
         });
+        function handleSubmit(event) {
+            event.preventDefault();
+            window.location.href = "thankyou.html";
+        }
     </script>
     <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
     <script src="assets/js/animations.js"></script>
